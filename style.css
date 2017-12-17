@@ -1,0 +1,159 @@
+* {
+	margin: 0px;
+	padding: 0;
+}
+
+*+* {
+	margin-top: 10px;
+}
+
+body {
+	background-color: #F5F4EF;
+	color: #003050;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+
+a {
+	color: #C74451;
+	text-decoration: none;
+	border-bottom: 1px solid #C74451;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #fff;
+	background: #C74451;
+	transition: all .25s ease;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 20px 0;
+}
+
+.header a, .beetroot a {
+	color: #003050;
+	text-decoration: none;
+	transition: color .25s ease;
+	border-bottom: none;
+}
+
+.header a:hover,
+.header a:focus, 
+.header a:active {
+	color: #C74451;
+}
+
+.m1 {
+	font-size: 14px;
+}
+
+.header__title {
+	font-size: 56px;
+	margin-bottom: 0;
+}
+.header__subtitle {
+	font-size: 18px;
+	margin: 10px 0 10px;
+}
+
+.box {
+	padding: 15px 20px 15px 20px;
+	background-color:#FFFFFF;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+p.m0 {
+	margin: 0;
+}
+
+ul li {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+ul.ul li a {
+	text-decoration: none;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+.main h2 {
+	color: #C74451;
+}
+
+.main a, .aside h3, .footer h3 {
+	color: #C74451;
+}
+
+.main .beetroot a {
+	color: #003050;
+}
+
+.beetroot a:hover,
+.beetroot a:focus, 
+.beetroot a:active {
+	color: #fff;
+}
+
+.main h3.h3 a {
+	text-decoration: none;
+	border-bottom: none;
+}
+
+ul li article time,
+ul li article aurhor {
+	display: block;
+}
+
+.articles li:not(:last-child) {
+	border-bottom: 1px solid #eee;
+}
+
+.articles li {
+	padding: 20px 0;
+}
+
+.aside ul {
+	padding: 0;
+	max-width: 40%;
+}
+
+.aside ul li a {
+	padding: 5px 0 ;
+	display: inline-block;
+	width: 100%;
+	color: #000;
+	border-bottom: 1px solid #000;
+}
+
+.aside ul li a:hover,
+.aside ul li a:focus,
+.aside ul li a:active {
+	color: #fff
+}
+
+.footer section {
+	padding: 15px 20px 15px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	display: flex;
+}
+
+.left {
+	padding-right: 40px;
+	flex-shrink: 0;
+}
+
+.right {
+	overflow: hidden;
+	margin-top: 0;
+}
